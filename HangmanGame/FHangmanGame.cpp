@@ -18,17 +18,7 @@ int32 FHangmanGame::GetMaxTries() const
 FString FHangmanGame::GetLettersEnteredAsStr() const
 {
 	FString LettersEnteredAsStr = "";
-	// Another way of doing it
-	/*
-	for (auto LetterIt = MyLetterEntered.begin(); LetterIt != MyLetterEntered.end(); LetterIt++)
-	{
-		if (LetterIt != MyLetterEntered.begin())
-		{
-			LettersEnteredAsStr.append(", ");
-		}
-		LettersEnteredAsStr.push_back(LetterIt->first);
-	}
-	*/
+
 	bool bIsFirstLetter = true;
 
 	for (auto LetterIt : MyLetterEntered)
