@@ -1,0 +1,5 @@
+HangmanGame/Debug/**
+Debug/**
+.vs/**
+.gitignore
+HangmanGame/.vscode/**
